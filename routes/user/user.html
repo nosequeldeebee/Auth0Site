@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" href="/public/favicon.ico" />
+        <script src="http://code.jquery.com/jquery-3.1.0.min.js" type="text/javascript"></script>
+        <script src="/public/js.cookie.js"></script>
+        <script src="/public/user.js"> </script>
+        <link href="/public/app.css" rel="stylesheet">
+	  <title>Teaching Hospitals</title>
+	  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+	html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+	table {
+		    font-family: arial, sans-serif;
+		    border-collapse: collapse;
+		    width: 100%;
+	}
+
+	td, th {
+		    border: 1px solid #dddddd;
+		    text-align: left;
+		    padding: 8px;
+	}
+
+	tr:nth-child(even) {
+		    background-color: #dddddd;
+	}
+    </style>
+  </head>
+
+  <body class="w3-light-grey">
+
+
+	<h2 class="w3-text-grey w3-padding-16"><i class="fa fa-hospital-o fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Teaching Hospitals</h2>
+        <div style="position:absolute; top:0; right:0">
+                <a class="btn btn-primary btn-lg btn-logout btn-block">Logout</a>
+        </div>
+    	<div id="app">
+    		<script src="/public/elm.js"></script>
+    		<script>
+			var node = document.getElementById('app');
+			var app = Elm.Main.embed(node);
+    		</script>
+	</div>
+  </body>
+</html>
