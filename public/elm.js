@@ -9980,7 +9980,7 @@ var _user$project$Commands$hospitalDecoder = A3(
 					_elm_lang$core$Json_Decode$string,
 					_NoRedInk$elm_decode_pipeline$Json_Decode_Pipeline$decode(_user$project$Models$Hospital))))));
 var _user$project$Commands$hospitalsDecoder = _elm_lang$core$Json_Decode$list(_user$project$Commands$hospitalDecoder);
-var _user$project$Commands$fetchHospitalsUrl = 'http://trink.io:3001/hospitals';
+var _user$project$Commands$fetchHospitalsUrl = '/hospitals';
 var _user$project$Commands$fetchHospitals = A2(
 	_elm_lang$core$Platform_Cmd$map,
 	_user$project$Msgs$OnFetchHospitals,
