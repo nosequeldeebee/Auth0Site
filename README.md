@@ -1,1 +1,1 @@
-[Teaching Hospitals](https://github.com/nosequeldeebee/teachingHospitals) site secured by [Auth0](auth0.com)
+[Teaching Hospitals](https://github.com/nosequeldeebee/teachingHospitals) site secured by [Auth0](https://auth0.com/)
